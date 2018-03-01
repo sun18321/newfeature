@@ -1,0 +1,27 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <!--给Toolbar定义子主题继承了ThemeOverlay.AppCompat.Dark-->
+    <style name="ThemeOverlay.AppCompat.Dark.PopupMenu" >
+        <item name="overlapAnchor">false</item>
+    </style>
+
+    <style name="ExpandedTitle">
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+    <style name="CollapsedTitle">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/colorAccent</item>
+    </style>
+
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/menu_recycler_listview_vertical"
+        android:title="ListView垂直方向"
+        ></item>
+    <item android:id="@+id/menu_recycler_listview_horizontal"
+          android:title="ListView水平方向"
+        ></item>
+    <item android:id="@+id/menu_recycler_gridview_horizontal"
+          android:title="GridView水平方向"
+        ></item>
+    <item android:id="@+id/menu_recycler_gridview_vertical"
+          android:title="GridView垂直方向"
+        ></item>
+    <item android:id="@+id/menu_recycler_stagger_vertical"
+          android:title="StaggerView垂直方向"
+        ></item>
+    <item android:id="@+id/menu_recycler_stagger_horizontal"
+          android:title="StaggerView水平方向"
+        ></item>
+
+</menu>

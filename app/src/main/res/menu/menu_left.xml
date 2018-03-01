@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="新控件">
+
+        <menu>
+            <item
+                android:id="@+id/menu_left_recyclerView"
+                android:icon="@mipmap/heart"
+                android:title="RecyclerView"></item>
+            <item
+                android:id="@+id/menu_left_tabLayout"
+                android:icon="@mipmap/msg"
+                android:title="TabLayout"></item>
+            <item
+                android:id="@+id/menu_left_appBarLayout"
+                android:icon="@mipmap/search"
+                android:title="AppBarLayout"></item>
+            <item
+                android:id="@+id/menu_left_collaspingtoolbarlayout"
+                android:icon="@mipmap/refresh"
+                android:title="CollaspingToolbarLayout"/>
+        </menu>
+
+    </item>
+    <item android:title="新权限">
+        <menu>
+            <item
+                android:icon="@mipmap/heart"
+                android:title="RecyclerView"></item>
+            <item
+                android:icon="@mipmap/msg"
+                android:title="TabLayout"></item>
+            <item
+                android:icon="@mipmap/search"
+                android:title="AppBarLayout"></item>
+            <item
+                android:icon="@mipmap/refresh"
+                android:title="CollaspingToolbarLayout"/>
+        </menu>
+    </item>
+    <item android:title="Materia Design">
+        <menu>
+            <item
+                android:icon="@mipmap/heart"
+                android:title="RecyclerView"></item>
+            <item
+                android:icon="@mipmap/msg"
+                android:title="TabLayout"></item>
+            <item
+                android:icon="@mipmap/search"
+                android:title="AppBarLayout"></item>
+            <item
+                android:icon="@mipmap/refresh"
+                android:title="CollaspingToolbarLayout"/>
+        </menu>
+    </item>
+
+</menu>
